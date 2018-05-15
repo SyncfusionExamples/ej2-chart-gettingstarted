@@ -1,0 +1,6 @@
+<ejs-chart id="chart-container" [primaryXAxis] = 'primaryXAxis' [title] = 'title' [legendSettings] = 'legendSettings' [tooltip] = 'tooltip'>
+    <e-series-collection>
+            <e-series [dataSource]='chartData' type= 'Column' xName='year' yName='gold' name='Gold' legendShape = 'Rectangle' [marker] = 'columnMarker'></e-series>
+            <e-series [dataSource]='chartData' type= 'Line' xName='year' yName='silver' name='Silver' legendShape = 'Circle' [marker] = 'lineMarker'></e-series>
+        </e-series-collection>
+    </ejs-chart>
