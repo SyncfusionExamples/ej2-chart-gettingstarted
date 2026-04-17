@@ -5,7 +5,8 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 @Component({
   selector: 'app-chart',
   templateUrl: './chart.component.html',
-  encapsulation: ViewEncapsulation.None
+  encapsulation: ViewEncapsulation.None,
+  standalone: false
 })
 export class ChartComponent implements OnInit {
       public chartData: Object [];
