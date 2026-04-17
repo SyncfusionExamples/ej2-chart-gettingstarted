@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { ChartComponent } from './chart/chart.component';
-import { ChartModule, ColumnSeriesService, LegendService, CategoryService, TooltipService, LineSeriesService, DataLabelService  } from '@syncfusion/ej2-ng-charts';
+import { ChartModule, ColumnSeriesService, LegendService, CategoryService, TooltipService, LineSeriesService, DataLabelService } from '@syncfusion/ej2-angular-charts';
 
 
 @NgModule({
