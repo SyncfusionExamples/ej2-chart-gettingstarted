@@ -1,9 +1,11 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
-
-
+import { ChartModule, ColumnSeriesService, LegendService, CategoryService, TooltipService, LineSeriesService, DataLabelService } from '@syncfusion/ej2-angular-charts';
 
 @Component({
   selector: 'app-chart',
+  standalone: true,
+  imports: [ChartModule],
+  providers: [ColumnSeriesService, CategoryService, LineSeriesService, LegendService, DataLabelService, TooltipService],
   templateUrl: './chart.component.html',
   encapsulation: ViewEncapsulation.None
 })
